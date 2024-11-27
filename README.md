@@ -1,14 +1,14 @@
 # linear-search
 #include <stdio.h>
 
-// Function to perform linear search
+
 int linearSearch(int array[], int n, int key) {
-    for (int i = 0; i < n; i++) { // Loop from 0 to n-1
-        if (array[i] == key) {    // Check if current element matches the key
-            return i;             // Return the index if key is found
+    for (int i = 0; i < n; i++) { 
+        if (array[i] == key) {   
+            return i;           
         }
     }
-    return -1;                    // Return -1 if the key is not found
+    return -1;                   
 }
 
 int main() {
